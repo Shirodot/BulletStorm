@@ -1,0 +1,15 @@
+# ─────────────────────────────────────────────────────────────
+# GitHub Linguist 語言統計設定
+# 本專案為純 Java 遊戲；ppt/ 內的簡報生成腳本與建置工具
+# 並非遊戲原始碼，故排除於語言列之外，讓 GitHub 只顯示 Java。
+# ─────────────────────────────────────────────────────────────
+
+# 簡報資料夾（Python / JavaScript 生成腳本、投影片、講稿）視為文件
+ppt/**            linguist-documentation
+ppt/**            linguist-vendored
+
+# 建置腳本不計入語言統計
+*.bat             linguist-vendored
+
+# 確保 Java 一定被當作程式語言統計
+*.java            linguist-detectable=true

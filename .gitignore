@@ -25,3 +25,10 @@ desktop.ini
 # Temp / lock files for Office docs
 ~$*.pptx
 ~$*.docx
+
+# PPT visual QA artifacts (temporary)
+ppt/qa_*.jpg
+ppt/qa_*.png
+ppt/qa_images/
+ppt/slide-*.jpg
+ppt/slide-*.png
