@@ -1,0 +1,27 @@
+# Compiled Java class files
+out/
+*.class
+
+# Build output
+bin/
+build/
+target/
+
+# Python cache (PPT generation scripts)
+__pycache__/
+*.pyc
+
+# IDE / Editor
+.idea/
+.vscode/
+*.iml
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temp / lock files for Office docs
+~$*.pptx
+~$*.docx
